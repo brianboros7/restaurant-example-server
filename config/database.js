@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME', 'restuarant-example-backend'),
         username: env('DATABASE_USERNAME', null),
         password: env('DATABASE_PASSWORD', null),
-      },
+      }, 
       options: {
         authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
         ssl: env.bool('DATABASE_SSL', false),
